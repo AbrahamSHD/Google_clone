@@ -64,42 +64,58 @@ body{
     justify-content: center;
 }
 
-.input-text{
-    box-sizing: border-box;
+.section-logo{
+    margin-bottom: 20px;
+}
+
+.img-logo{
+    width: auto;
+    height: 88px;
+
+}
+
+.main-input{
     display: flex;
-    background-color: #202124;
     color: #fff;
     border-radius: 24px;
-    border: 1px solid #999da280;
+    border: 1px solid #5f6368;
     height: 44px;
     margin: 0 auto 29px;
     width: 580px;
-    padding-left: 50px;
-    padding-right: 50px;
     font-size: 16px;
-    outline: none;
+    align-items: center;
+    padding: 0 12px;
 }
 
-#miInput:hover {
+.main-input:hover{
     background-color: #303134;
+    
+}
+
+#miInput {
+    background-color: transparent;
+    color: #fff;
     border: none;
     outline: none;
-    /* user-select: none; */
     cursor: text;
-  }
+    flex-grow: 1;
+    padding-left: 15px;
+    height: 100%;
+    font-size: 14px;
+}
 
 .icon-search{
-    width: 25px;
-    height: 25px;
+    width: 18px;
+    height: 18px;
 }
 
 .icon-search svg{
-    filter: invert(100%);
+    color: #999da2;
 }
 
-.goxjub{
-    width: 25px;
-    height: 25px;
+.icon-mic{
+    width: 18px;
+    height: 18px;
 }
 
 .main-buttons{
@@ -112,7 +128,7 @@ body{
 #button-seach {
     background-color: #303134;
     color: #fff;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 4px;
     margin: 11px 4px;
     padding: 0 16px;
@@ -129,7 +145,7 @@ body{
 #button-mic {
     background-color: #303134;
     color: #fff;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 4px;
     margin: 11px 4px;
     padding: 0 16px;
@@ -143,11 +159,7 @@ body{
     border: 1px solid #999da280;
 }
 
-.img-logo{
-    width: auto;
-    height: 88px;
 
-}
 
 .footer-main{
     color: #999da2;
